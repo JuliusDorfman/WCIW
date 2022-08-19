@@ -1,9 +1,12 @@
 import logo from './logo.svg';
+import Navigation from './Navigation';
+import MediaCard from './MediaCard';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <Navigation/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,6 +21,10 @@ function App() {
           Learn React
         </a>
       </header>
+      {/* replace this dive with container */}
+      <div>
+        <MediaCard />
+      </div>
     </div>
   );
 }
