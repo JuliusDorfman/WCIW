@@ -1,1 +1,2 @@
-   config.js
+# ignore files for private keys
+./config.js
