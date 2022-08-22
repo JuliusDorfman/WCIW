@@ -1,2 +1,2 @@
 # ignore files for private keys
-./config.js
+/config.js
