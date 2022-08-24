@@ -1,0 +1,52 @@
+/** Media Card Container Component **/
+
+#MediaCardContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 55vh;
+  border-width: 2px;
+  /* TODO */
+  /* border-style: dashed;
+  border-color: red; */
+  width: 80%;
+  margin: auto;
+  overflow: auto;
+}
+
+.MediaCard {
+  display: inline-block;
+  /* TODO */
+  /* border-style: dashed;
+  border-color: blue; */
+  height: 35%;
+  width: 22%;
+  margin: 2VW;
+}
+
+.MediaCard > img {
+  height: 70%;
+}
+
+/** Scrollbar **/
+
+/* Width */
+#MediaCardContainer::-webkit-scrollbar {
+width: 20px;
+} 
+/* Track */
+#MediaCardContainer::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 50px;
+}
+ 
+/* Handle */
+#MediaCardContainer::-webkit-scrollbar-thumb {
+  background: ghostwhite; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+#MediaCardContainer::-webkit-scrollbar-thumb:hover {
+  background: #B7BEFF; 
+}

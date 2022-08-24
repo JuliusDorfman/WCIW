@@ -1,5 +1,6 @@
 import React from 'react';
 import dogege from './assets/images/placeholder-dogege.png'
+import './MediaCard.css';
 
 export default class MediaCard extends React.Component {
   render() {

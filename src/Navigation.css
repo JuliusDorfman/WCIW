@@ -1,0 +1,38 @@
+#site-intro {
+  display: flex;
+  align-items: baseline;
+  padding: 5vw 5vh 0vh 5vw;
+}
+
+.site-acronym {
+  font-size: 9vw;
+}
+
+.site-name {
+  font-size: 4vw;
+  font-style: italic;
+  padding-left: 2vw;
+}
+
+#navigation {
+  height: 30vh;
+  background-color: #27242A;
+}
+
+#navbar ul {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  list-style: none;
+  padding: 0vw 5vw;
+  text-align: left;
+}
+
+#navbar ul li {
+  display: inline;
+  padding-right: 3vw;
+}
+
+#searchbar {
+  text-align: left;
+  padding-left: 5vw;
+}

@@ -5,8 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: ghostwhite;
+  background-color: #27242A;
 }
 
+body a {
+  text-decoration: none;
+}
+
+body a:link {
+  color: ghostwhite;
+}
+
+body a:visited {
+  color: ghostwhite;
+}
+
+body a:hover {
+  color: #B7BEFF;
+}
+
+body a:active {
+  color: #B7BEFF; 
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
